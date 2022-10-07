@@ -37,7 +37,7 @@ class ScaffoldLernView extends StatelessWidget {
               icon: Icon(
                 Icons.confirmation_num_sharp,
               ),
-              label: 'b')
+              label: 'c')
         ],
       ),
     );
