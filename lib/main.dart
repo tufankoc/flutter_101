@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_101/101/button_learn.dart';
+
+import '101/color_learn.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,8 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(),
-      home: ButtonLearn(),
+      theme: ThemeData.dark().copyWith(
+        appBarTheme: AppBarTheme(
+          centerTitle: true,
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+        ),
+      ),
+      home: ColorLearnView(),
     );
   }
 }
