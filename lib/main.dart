@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '101/color_learn.dart';
+import 'demos/note_demos_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: ColorLearnView(),
+      home: NoteDemos(),
     );
   }
 }
